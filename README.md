@@ -23,6 +23,7 @@ pip install -r requirements.txt
 ```
 
 ## Project Structure
+```
 cli-assistant/
 ├── agent.py                   # Run assistant locally (CPU)
 ├── agent_colab.ipynb         # GPU/Colab version with BLEU/ROUGE eval
@@ -32,7 +33,7 @@ cli-assistant/
 ├── lora_adapter/             # Fine-tuned LoRA weights (upload in Colab)
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Setup & Inference
 ### Local (CPU)
